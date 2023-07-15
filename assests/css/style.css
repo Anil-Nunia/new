@@ -26,6 +26,10 @@
     --fs-20: 20px;
     --fs-48: 48px;
     --fw-700: 700;
+    --fw-400:400;
+}
+.fw-400{
+    font-weight:var(--fw-400);
 }
 .fs-48{
     font-size: var(--fs-48);
