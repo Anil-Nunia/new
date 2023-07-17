@@ -99,6 +99,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 674px;
 }
 
 .f-style {
@@ -1177,6 +1178,6 @@ ul {
     }
 
     .mt-142 {
-        margin-top: 2px;
+        margin-top: 192px;
     }
 }
