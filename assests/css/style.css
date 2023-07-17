@@ -1266,9 +1266,7 @@ header {
 }
 
 @media (min-width:992px) {
-    body{
-        overflow: hidden !important;
-      }
+  
     .input-bttn {
         margin-top: 0px;
         display: inline-flex;
@@ -1340,7 +1338,12 @@ header {
 }
 
 @media (max-width:992px) {
-  
+    body {
+        overflow-x: hidden !important;
+    }
+    head {
+        overflow-x: hidden !important;
+    }
     #nav_bar1 {
         left: -100%;
         flex-direction: column;
