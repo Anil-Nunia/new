@@ -565,7 +565,7 @@ ul {
 }
 
 .mb-160 {
-    margin-bottom: 360px;
+    margin-bottom: 300px;
 }
 
 .mt-263 {
@@ -665,17 +665,21 @@ ul {
 }
 
 .box2s {
-    width: 80%;
+    width: 96%;
 }
 
 .imgeres31 {
-    left: 10px;
+    left: 0;
     top: 110%;
-    max-width: 100%;
+    width: 753px;
+    width: 100%;
+    height: 298px;
+    
+
 }
 
 .box2s {
-    margin-left: 20px;
+    margin-left: 6px;
 }
 
 .imgh1 {
@@ -733,10 +737,13 @@ ul {
     }
 
     .imgeres31 {
-        left: 10px;
+        left: 50%;
         top: 110%;
-        max-width: 400px;
-
+        width: 753px;
+            width: 100%;
+            height: 298px;
+            transform: translate(-50%);
+           
     }
 
     :root {
@@ -751,9 +758,13 @@ ul {
     }
 
     .imgeres31 {
-        left: 20%;
+        left: 50%;
         top: 110%;
-        max-width: 400px;
+        width: 753px;
+            width: 100%;
+            height: 498px;
+            height: 100%;
+            transform: translate(-50%);
     }
 
     .ml-60 {
@@ -925,7 +936,7 @@ ul {
     }
 
     .mb-160 {
-        margin-bottom: 460px;
+        margin-bottom: 400px;
     }
 
     .mt-263 {
@@ -965,7 +976,7 @@ ul {
     }
 
     .fs-48-res {
-        font-size: 48px;
+        font-size: 32px;
     }
 
     .fc-white {
@@ -1005,7 +1016,9 @@ ul {
     .d-grid {
         grid-template-columns: auto auto auto auto;
     }
-
+ .mb-160{
+    margin-bottom: 100px;
+ }
     .imgb1 {
         display: block;
     }
@@ -1033,7 +1046,7 @@ ul {
     .imgu1 {
         position: absolute;
         top: -12%;
-        left: 72%;
+        left: 73%;
         width: 100%;
         width: 598px;
         height: 498px;
@@ -1042,9 +1055,6 @@ ul {
     .cards {
         width: 100%;
 
-    }
-    .fs-48-res {
-        max-width: 80px;
     }
 
     .max-width-471 {
@@ -1100,7 +1110,7 @@ ul {
     }
 
     .mb-224 {
-        margin-bottom: 324px;
+        margin-bottom: -84px;
     }
 
     .box2s {
@@ -1109,6 +1119,16 @@ ul {
 .fs-48-res{
     max-width: unset;
 }
+
+ .imgeres31 {
+     left: 24%;
+     top: -20%;
+     width: 473px;
+    
+     height: 498px;
+     height: 100%;
+    
+ }
 }
 
 @media (min-width:1800px) {
@@ -1120,7 +1140,9 @@ ul {
         height: 498px;
             
     }
-
+.fs-48-res {
+    font-size: 48px;
+}
  .ml-162{
     margin-left: 162px;
  }
@@ -1129,9 +1151,12 @@ ul {
     }
 
     .imgeres31 {
-        left: 16%;
-        top: -20%;
-        max-width: 600px;
+        left: 33%;
+        top: -57%;
+    width: 753px;
+    width: 100%;
+        height: 498px;
+        
     }
 
     .mb-224 {
@@ -1152,6 +1177,6 @@ ul {
     }
 
     .mt-142 {
-        margin-top: -142px;
+        margin-top: 2px;
     }
 }
