@@ -6,6 +6,7 @@
     list-style-type: none !important;
     text-decoration: none !important;
     box-sizing: border-box;
+    border: black solid 1px;
 }
 
 .my-container {
@@ -18,6 +19,11 @@
 
 .bg-color {
     background-color: #d2da60;
+}
+
+ol,
+ul {
+    padding-left: unset !important;
 }
 
 :root {
@@ -558,6 +564,19 @@ ul {
     padding-top: 50px !important;
 }
 
+.img-box-bg {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 426px;
+    min-height: 484px;
+    border-radius: 24px;
+    background: #010080;
+}
+
 .row>* {
     flex-shrink: 0;
     width: 100%;
@@ -572,7 +591,7 @@ ul {
 }
 
 .mb-160 {
-    margin-bottom: 300px;
+    margin-bottom: 330px;
 }
 
 .mt-263 {
@@ -681,7 +700,7 @@ ul {
     width: 753px;
     width: 100%;
     height: 298px;
-    
+
 
 }
 
@@ -875,7 +894,7 @@ input {
     align-items: center;
     gap: 10px;
     background: #010080;
-    border: solid 1px transparent;
+    /* border: solid 1px transparent; */
     color: white;
     font-weight: 400;
     border: none;
@@ -883,9 +902,9 @@ input {
 }
 
 .input-bttn:hover {
-    color: #010080;
-    background: white;
-    border: solid 1px #010080;
+    color: #0606a0;
+    background: rgb(204, 203, 205);
+    /* border: solid 1px #010080; */
 }
 
 /* page8 */
@@ -1355,10 +1374,10 @@ header {
         left: 50%;
         top: 110%;
         width: 753px;
-            width: 100%;
-            height: 298px;
-            transform: translate(-50%);
-           
+        width: 100%;
+        height: 298px;
+        transform: translate(-50%);
+
     }
 
     :root {
@@ -1376,10 +1395,10 @@ header {
         left: 50%;
         top: 110%;
         width: 753px;
-            width: 100%;
-            height: 498px;
-            height: 100%;
-            transform: translate(-50%);
+        width: 100%;
+        height: 498px;
+        height: 100%;
+        transform: translate(-50%);
     }
 
     .ml-60 {
@@ -1618,6 +1637,7 @@ header {
         width: 98%;
 
     }
+
     .mt-100 {
         margin-top: 100px;
     }
@@ -1631,9 +1651,11 @@ header {
     .d-grid {
         grid-template-columns: auto auto auto auto;
     }
- .mb-160{
-    margin-bottom: 100px;
- }
+
+    .mb-160 {
+        margin-bottom: 100px;
+    }
+
     .imgb1 {
         display: block;
     }
@@ -1665,8 +1687,9 @@ header {
         width: 100%;
         width: 598px;
         height: 498px;
-            height: 100%;
+        height: 100%;
     }
+
     .cards {
         width: 100%;
 
@@ -1674,7 +1697,7 @@ header {
 
     .max-width-471 {
         max-width: 471px;
-    
+
     }
 }
 
@@ -1683,16 +1706,18 @@ header {
         display: unset;
         z-index: -10 !important;
     }
-.imgu1 {
-    position: absolute;
-    top: -12%;
-    left: 72%;
-    width: 100%;
-    width: 598px;
-    height: 498px;
-    height: 100%;
-        
-}
+
+    .imgu1 {
+        position: absolute;
+        top: -12%;
+        left: 72%;
+        width: 100%;
+        width: 598px;
+        height: 498px;
+        height: 100%;
+
+    }
+
     .imgh1 {
         right: 7%;
         top: -30%;
@@ -1731,36 +1756,40 @@ header {
     .box2s {
         width: 90%;
     }
-.fs-48-res{
-    max-width: unset;
-}
 
- .imgeres31 {
-     left: 24%;
-     top: -20%;
-     width: 473px;
-    
-     height: 498px;
-     height: 100%;
-    
- }
+    .fs-48-res {
+        max-width: unset;
+    }
+
+    .imgeres31 {
+        left: 24%;
+        top: -20%;
+        width: 473px;
+
+        height: 498px;
+        height: 100%;
+
+    }
 }
 
 @media (min-width:1800px) {
     .imgu1 {
         position: absolute;
         top: -58%;
-       left: 63%;
+        left: 63%;
         width: 783px;
         height: 498px;
-            
+
     }
-.fs-48-res {
-    font-size: 48px;
-}
- .ml-162{
-    margin-left: 162px;
- }
+
+    .fs-48-res {
+        font-size: 48px;
+    }
+
+    .ml-162 {
+        margin-left: 162px;
+    }
+
     :root {
         --fs-36: 36px;
     }
@@ -1768,10 +1797,10 @@ header {
     .imgeres31 {
         left: 33%;
         top: -57%;
-    width: 753px;
-    width: 100%;
+        width: 753px;
+        width: 100%;
         height: 498px;
-        
+
     }
 
     .mb-224 {
