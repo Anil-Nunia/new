@@ -20,20 +20,19 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
-<body class="overflow-x-hidden">
+<body>
     <header class="bg-color">
         <nav>
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between">
                     <a href="#" class="img1"><img src="./assests/image/image1.png" alt="img1" class="img1"></a>
-
-                    <ul class="nav_bar1 d-flex align-items-center gap-4 gap-sm-4 gap-lg-5" id="nav_bar1">
-                        <li><a onclick="opennav()" href="#" class="c-blue ff fs-18-h fw-600 position-relative tags_underline">Home</a></li>
-                        <li><a onclick="opennav()" href="#" class="c-blue ff fs-18-h fw-600 position-relative tags_underline">Overview</a></li>
-                        <li><a onclick="opennav()"  href="#whychoose" class="c-blue ff fs-18-h fw-600 position-relative tags_underline">Why Choose Us?</a></li>
-                        <li><a onclick="opennav()" href="#services" class="c-blue ff fs-18-h fw-600 position-relative tags_underline">Our Plans</a></li>
-                        <li><a onclick="opennav()" href="#ourteam" class="c-blue ff fs-18-h fw-600 position-relative tags_underline">How It Works</a></li>
-                        <li><a onclick="opennav()" href="#faq" class="c-blue ff fs-18-h fw-600 position-relative tags_underline">FAQs</a></li>
+                    <ul class= "nav_bar1 d-flex align-items-center gap-4 gap-sm-4 gap-lg-5 " id="nav_bar1">
+                        <li onclick="opennav()"><a  href="#home" class="c-blue ff fs-18-h fw-600 position-relative tags_underline">Home</a></li>
+                        <li onclick="opennav()"><a  href="#" class="c-blue ff fs-18-h fw-600 position-relative tags_underline">Overview</a></li>
+                        <li onclick="opennav()"><a   href="#whychoose" class="c-blue ff fs-18-h fw-600 position-relative tags_underline">Why Choose Us?</a></li>
+                        <li onclick="opennav()"><a  href="#services" class="c-blue ff fs-18-h fw-600 position-relative tags_underline">Our Plans</a></li>
+                        <li onclick="opennav()"><a  href="#ourteam" class="c-blue ff fs-18-h fw-600 position-relative tags_underline">How It Works</a></li>
+                        <li onclick="opennav()"><a  href="#faq" class="c-blue ff fs-18-h fw-600 position-relative tags_underline">FAQs</a></li>
                     </ul>
                      <button onclick="opennav()" type="button" class="close d-lg-none btns-z" aria-label="Close">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,13 +40,12 @@
                         </svg>
 
                     </button> 
-                 
                 </div>
             </div>
         </nav>
     </header>
     <!-- section one (hero-section) -->
-    <section class="hero-bg">
+    <section class="hero-bg" id="home">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-10 col-sm-6 ">
@@ -64,7 +62,7 @@
         </div>
     </section>
     <!-- section second (Why Choose Us?) -->
-    <section id="whychoose" class="position-relative overflow-x-hidden overflow-y-hidden">
+    <section id="whychoose" class="position-relative overflow-hidden">
         <span><img src="./assests/image/imgb1.png" alt="imgb1" class="imgb1 position-absolute w-10"></span>
         <span><img src="./assests/image/imgb2.png" alt="imgb2" class="imgb2 position-absolute"></span>
         <div class="container">
@@ -118,7 +116,7 @@
         </div>
     </section>
     <!-- section-three (Gallery)-->
-    <section class="overflow-x-hidden">
+    <section class="overflow-hidden">
         <div class="text-center">
             <p class="ff fs-48 fw-700 c-blk">Gallery</p>
             <div class="text-center">
