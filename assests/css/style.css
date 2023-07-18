@@ -6,7 +6,7 @@
     list-style-type: none !important;
     text-decoration: none !important;
     box-sizing: border-box;
-    border: black solid 1px;
+    
 }
 
 .my-container {
@@ -140,7 +140,18 @@ ul {
 .c-blk {
     color: #000;
 }
-
+.mw-190{
+    max-width: 190px;
+}
+.mw-215{
+    max-width: 215px;
+}
+.mw-260{
+    max-width: 260px;
+}
+.mw-200{
+    max-width: 200px;
+}
 .pt-260 {
     padding-top: 260px;
 }
@@ -348,14 +359,14 @@ ul {
 }
 
 .imgcolor1 {
-    bottom: -70%;
-    left: -90%;
+    bottom: 52%;
+    left: -8%;
     z-index: -1;
 }
 
 .imgcolor4 {
-    top: -1670%;
-    left: 14%;
+    top: -82%;
+    left: 25%;
     z-index: -1;
 }
 
@@ -834,6 +845,7 @@ span:hover svg circle {
     position: absolute;
     top: -15%;
     right: 0;
+    
 }
 
 .last-boy-img {
@@ -1817,7 +1829,7 @@ header {
     }
 
     .mt-263 {
-        margin-top: 263px;
+        margin-top: 223px;
     }
 
     .mt-142 {
