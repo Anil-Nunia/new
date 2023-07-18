@@ -1,7 +1,3 @@
-* {
-    /* border: 1px solid red; */
-}
-
 /* footer */
 footer {
     background: #000;
@@ -261,6 +257,7 @@ input {
 .mt-head {
     padding-left: 30px !important;
 }
+
 .img-box {
     padding: 15px;
     background-color: white;
@@ -296,14 +293,17 @@ input {
     scale: 1.03;
     transition: all 300ms;
 }
+
 @media (min-width:320px) {
-    .mb-bttm-sm{
-    margin-bottom: 40px !important;
+    .mb-bttm-sm {
+        margin-bottom: 40px !important;
     }
+
     .page8-img-card {
         max-width: 425px;
         min-height: 499px !important;
     }
+
     :root {
         --fs-18: 14px;
         --fw-600: 600px;
@@ -404,6 +404,7 @@ input {
     }
 
 }
+
 @media (min-width:576px) {
 
     .big_text {
@@ -416,10 +417,12 @@ input {
     }
 
 }
+
 @media (min-width:768px) {
-    .mt-pics-set{
+    .mt-pics-set {
         margin-top: -80px !important;
     }
+
     .input-bttn {
         margin-top: 22px;
         display: inline-flex;
@@ -433,6 +436,7 @@ input {
         border: none;
         font-size: 18px;
     }
+
     .page9-searchbox {
         margin-bottom: 29px;
         max-width: 1320px;
@@ -440,6 +444,7 @@ input {
         border-radius: 5px;
         background: #F0F0F0;
     }
+
     input {
         width: 491px !important;
         height: 11px;
@@ -450,11 +455,13 @@ input {
         border: none !important;
         opacity: 0.699999988079071;
     }
+
     .input-box {
         display: flex;
         flex-direction: row !important;
     }
-     .img-box {
+
+    .img-box {
         padding: 15px;
         background-color: white;
         margin-left: 30px;
@@ -480,9 +487,10 @@ input {
         max-width: 354px;
         min-height: 88px;
     }
-    
+
 
 }
+
 @media (min-width:992px) {
     .input-bttn {
         margin-top: 0px;
@@ -497,6 +505,7 @@ input {
         border: none;
         font-size: 22px;
     }
+
     :root {
         --fs-18: 18px;
         --fw-600: 600px;
@@ -525,22 +534,22 @@ input {
         transform: translateY(50%);
     }
 }
+
 @media (min-width:1200px) {
     .page8-img2-size {
         width: 485px !important;
     }
 }
+
 @media (min-width:1400px) {
-    .page7-img-possition{
-    transform: translateX(25%) !important;
-    margin-top: -300px !important;
+    .page7-img-possition {
+        transform: translateX(25%) !important;
+        margin-top: -300px !important;
     }
+
     .page8_head {
         padding-top: 21px;
         padding-bottom: 14px;
     }
-    
+
 }
-
-
-
